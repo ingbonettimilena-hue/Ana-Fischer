@@ -104,7 +104,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px;
+    padding:120px 80px 80px;
     background: #f8f5f2;
     overflow: hidden;
 }
@@ -113,6 +113,7 @@ body {
 
 .hero-text{
     width: 50%;
+    margin-bottom: 350px;
     animation: subir 1.5s ease;
 }
 
@@ -132,6 +133,7 @@ body {
 
 .hero-image{
     width: 45%;
+    margin-top: -350px;
     display: flex;
     justify-content: center;
     animation: entrarDerecha 1.8s ease;
@@ -223,13 +225,13 @@ body {
 /* TÍTULO */
 .about h2 {
   font-size: 48px;
-  color: #b8a1d9;
+  color: #c27b99;
   margin-bottom: 50px;
 }
 
 .novedades h2 {
   font-size: 48px;
-  color: #b8a1d9;
+  color: #c27b99;
   margin-bottom: 60px;
 }
 .novedades .card{
@@ -310,8 +312,25 @@ body {
 /* TITULO */
 .catalogos h2 {
   font-size: 48px;
-  color: #b8a1d9;
+  color: #c27b99;
   margin-bottom: 15px;
+}
+
+.marca-titulo{
+  margin-top: 60px;
+  margin-bottom: 25px;
+  text-align: left;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marca-titulo h3{
+  font-size: 30px;
+  color: #c27b99;
+  border-left: 5px solid #c27b99;
+  padding-left: 15px;
+  letter-spacing: 1px;
 }
 
 /* TEXTO */
@@ -397,7 +416,7 @@ body {
 
 .contacto h2 {
   font-size: 48px;
-  color: #b8a1d9;
+  color:#c27b99;
   margin-bottom: 10px;
 }
 
@@ -643,6 +662,7 @@ body {
 }
 
 /* CARD */
+
 .policy-card {
   max-width: 800px;
   margin: auto;
